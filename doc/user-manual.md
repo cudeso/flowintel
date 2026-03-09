@@ -10,6 +10,7 @@ Flowintel also integrates with [MISP](https://www.misp-project.org/) for **shari
 
 Beyond cases and tasks, Flowintel includes a templating system for repeatable workflows, a calendar view for tracking deadlines, a notification system, analysis modules powered by MISP modules, data export to platforms such as MISP and AIL, and comprehensive audit logging.
 
+![flowintel-Flowintelintro.png](diagrams/flowintel-Flowintelintro.png)
 
 ## Follow up on your work
 
@@ -128,6 +129,8 @@ To mark a case as complete, open the case and click the complete button at the t
 To revive a completed case, navigate to finished cases, open the case and click the revive button. This brings the case back to the **Created** status and makes it appear in the active case list again. Note that the tasks are not automatically revived - only the case itself returns to the open state. You can then reopen individual tasks as needed. Reviving is useful when new information surfaces or when additional work is required on a case that was thought to be finished.
 
 In a privileged case, only an administrator or Case Admin can complete or revive the case.
+
+![flowintel-Casemanipulation.png](diagrams/flowintel-Casemanipulation.png)
 
 ### Note
 
@@ -292,6 +295,7 @@ This is useful for sources that may not remain available indefinitely. If you ar
 
 To add an external reference, open the task and enter the URL. You can edit or delete it afterwards. To convert it to a note, click the convert button. Flowintel fetches the page, converts the HTML to Markdown and creates a new note on the task with the content.
 
+![flowintel-Case-task-files-External-references.png](diagrams/flowintel-Case-task-files-External-references.png)
 
 ## The Flowintel community
 
@@ -300,6 +304,8 @@ The Flowintel community is built around three concepts: organisations, users and
 Flowintel does not impose any licence limits on the number of organisations, users or roles you can create. You are free to set up as many as your deployment requires.
 
 Every user must belong to exactly one organisation and must have exactly one role assigned. A user cannot exist without an organisation, and a user cannot hold more than one role at a time.
+
+![flowintel-Flowintel-community.png](diagrams/flowintel-Flowintel-community.png)
 
 
 ## Organisations

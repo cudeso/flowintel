@@ -1,0 +1,791 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="4">
+  <diagram name="intro" id="flowintel_intro">
+    <mxGraphModel dx="1042" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="header_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=none;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="10" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="header_title" value="&lt;font style=&quot;font-size:24px; letter-spacing:2px;&quot;&gt;FLOWINTEL&lt;/font&gt;" style="text;html=1;fontColor=#ffffff;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="310" y="10" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="header_sub" value="Open source case management system" style="text;html=1;fontColor=#81e1e6;fontStyle=0;fontSize=11;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="350" y="40" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="case1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=5;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="290" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="case1" vertex="1">
+          <mxGeometry x="2" y="34" width="286" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_id" value="#1" style="text;html=1;fontColor=#81e1e6;fontStyle=1;fontSize=12;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="3" width="24" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_title" value="Phishing campaign analysis" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=11;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="36" y="3" width="190" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_status" value="Created" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#456297;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="232" y="10" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_tlp" value="TLP:AMBER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFC000;fontColor=#000000;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="44" width="68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_ta" value="APT29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0088cc;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="84" y="44" width="48" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_tag" value="credential-theft" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4e7095;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="138" y="44" width="88" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_div1" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="68" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="76" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_1d" value="" style="ellipse;fillColor=#28a745;strokeColor=none;" parent="case1" vertex="1">
+          <mxGeometry x="17" y="84" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_1t" value="Collect IOCs from email headers" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="30" y="77" width="190" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_1s" value="Finished" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="228" y="81" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="108" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_2d" value="" style="ellipse;fillColor=#007bff;strokeColor=none;" parent="case1" vertex="1">
+          <mxGeometry x="17" y="116" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_2t" value="Analyse malicious attachments" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="30" y="109" width="190" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_2s" value="Ongoing" style="rounded=1;html=1;fillColor=#007bff;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="228" y="113" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="140" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_3d" value="" style="ellipse;fillColor=#6c757d;strokeColor=none;" parent="case1" vertex="1">
+          <mxGeometry x="17" y="148" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_3t" value="Block domains at proxy" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="30" y="141" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_3s" value="Created" style="rounded=1;html=1;fillColor=#6c757d;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="228" y="145" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_div2" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="174" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_file_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="182" width="20" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_file_txt" value="email_sample.eml" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="33" y="184" width="85" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_note_icon" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=8;" parent="case1" vertex="1">
+          <mxGeometry x="128" y="182" width="18" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_note_txt" value="Analysis findings" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case1" vertex="1">
+          <mxGeometry x="149" y="184" width="80" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_div3" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="210" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_o1" value="CERT-EU" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="218" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_o2" value="LEA-MS1" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="76" y="218" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_o3" value="CSIRT-MS1" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case1" vertex="1">
+          <mxGeometry x="142" y="218" width="68" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_ow" value="👑 owner" style="text;html=1;fontSize=6;fontColor=#6c757d;fontStyle=2;align=center;" parent="case1" vertex="1">
+          <mxGeometry x="10" y="238" width="60" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="case2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=5;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="355" y="100" width="290" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="case2" vertex="1">
+          <mxGeometry x="2" y="34" width="286" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_id" value="#2" style="text;html=1;fontColor=#81e1e6;fontStyle=1;fontSize=12;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="3" width="24" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_title" value="Ransomware incident response" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=11;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="36" y="3" width="200" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_status" value="Created" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#456297;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="232" y="10" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_tlp" value="TLP:GREEN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#33FF00;fontColor=#000000;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="44" width="68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_ta" value="LockBit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0088cc;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="84" y="44" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_tag" value="ransomware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4e7095;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="140" y="44" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_div1" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="68" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="76" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_1d" value="" style="ellipse;fillColor=#28a745;strokeColor=none;" parent="case2" vertex="1">
+          <mxGeometry x="17" y="84" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_1t" value="Isolate infected endpoints" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="30" y="77" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_1s" value="Finished" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="228" y="81" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="108" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_2d" value="" style="ellipse;fillColor=#007bff;strokeColor=none;" parent="case2" vertex="1">
+          <mxGeometry x="17" y="116" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_2t" value="Forensic disk imaging" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="30" y="109" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_2s" value="Ongoing" style="rounded=1;html=1;fillColor=#007bff;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="228" y="113" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="140" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_3d" value="" style="ellipse;fillColor=#dc3545;strokeColor=none;" parent="case2" vertex="1">
+          <mxGeometry x="17" y="148" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_3t" value="Restore from backups" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="30" y="141" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_3s" value="Rejected" style="rounded=1;html=1;fillColor=#dc3545;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="228" y="145" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_div2" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="174" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_file_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="182" width="20" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_file_txt" value="ransom_note.txt" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="33" y="184" width="78" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_file2_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="case2" vertex="1">
+          <mxGeometry x="115" y="182" width="20" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_file2_txt" value="forensic.pdf" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="138" y="184" width="56" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_note_icon" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=8;" parent="case2" vertex="1">
+          <mxGeometry x="203" y="182" width="18" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_note_txt" value="IR log" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case2" vertex="1">
+          <mxGeometry x="224" y="184" width="40" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_div3" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="210" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_o1" value="ENISA" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="218" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_o2" value="LEA-MS2" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="66" y="218" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_o3" value="CERT-EU" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case2" vertex="1">
+          <mxGeometry x="132" y="218" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_ow" value="👑 owner" style="text;html=1;fontSize=6;fontColor=#6c757d;fontStyle=2;align=center;" parent="case2" vertex="1">
+          <mxGeometry x="10" y="238" width="50" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="case3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=5;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="100" width="290" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="case3" vertex="1">
+          <mxGeometry x="2" y="34" width="286" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_id" value="#3" style="text;html=1;fontColor=#81e1e6;fontStyle=1;fontSize=12;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="3" width="24" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_title" value="Vulnerability disclosure triage" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=11;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="36" y="3" width="198" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_status" value="Finished" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="232" y="10" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_tlp" value="TLP:AMBER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFC000;fontColor=#000000;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="44" width="68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_tag" value="CVE-2026-1234" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4e7095;fontColor=#ffffff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="84" y="44" width="90" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_div1" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="68" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="76" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_1d" value="" style="ellipse;fillColor=#28a745;strokeColor=none;" parent="case3" vertex="1">
+          <mxGeometry x="17" y="84" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_1t" value="Validate vulnerability report" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="30" y="77" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_1s" value="Finished" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="228" y="81" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="108" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_2d" value="" style="ellipse;fillColor=#28a745;strokeColor=none;" parent="case3" vertex="1">
+          <mxGeometry x="17" y="116" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_2t" value="Coordinate with vendor" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="30" y="109" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_2s" value="Finished" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="228" y="113" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="140" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_3d" value="" style="ellipse;fillColor=#28a745;strokeColor=none;" parent="case3" vertex="1">
+          <mxGeometry x="17" y="148" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_3t" value="Publish advisory" style="text;html=1;fontSize=9;fontColor=#212529;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="30" y="141" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_3s" value="Finished" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="228" y="145" width="46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_div2" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="174" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_file_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="182" width="20" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_file_txt" value="vuln_report.pdf" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="33" y="184" width="75" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_note_icon" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=8;" parent="case3" vertex="1">
+          <mxGeometry x="115" y="182" width="18" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_note_txt" value="Disclosure timeline" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="case3" vertex="1">
+          <mxGeometry x="136" y="184" width="90" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_div3" value="" style="line;strokeWidth=1;strokeColor=#e0e0e0;html=1;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="210" width="270" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_o1" value="CSIRT-MS1" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="218" width="68" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_o2" value="ENISA" style="rounded=1;html=1;fillColor=#1f3763;fontColor=#fff;strokeColor=none;fontSize=8;fontStyle=1;arcSize=50;" parent="case3" vertex="1">
+          <mxGeometry x="84" y="218" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_ow" value="👑 owner" style="text;html=1;fontSize=6;fontColor=#6c757d;fontStyle=2;align=center;" parent="case3" vertex="1">
+          <mxGeometry x="10" y="238" width="68" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="misp_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=2;arcSize=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="490" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="misp_logo" value="" style="shape=image;imageAspect=0;aspect=fixed;image=https://raw.githubusercontent.com/MISP/MISP/2.4/app/webroot/img/misp-logo.png;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="432" y="498" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="misp_txt" value="&lt;b&gt;MISP&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;Threat Intelligence&lt;br&gt;Sharing Platform&lt;/font&gt;" style="text;html=1;fontSize=9;fontColor=#2c3e50;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="486" y="496" width="88" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c2_misp_send" value="&lt;font style=&quot;font-size:7px;&quot;&gt;&lt;i&gt;send to&lt;/i&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2c3e50;strokeWidth=1.5;fontColor=#2c3e50;endArrow=blockThin;endFill=1;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="case2" target="misp_box" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_misp_c2_recv" value="&lt;font style=&quot;font-size:7px;&quot;&gt;&lt;i&gt;receive&lt;/i&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2c3e50;strokeWidth=1.5;fontColor=#2c3e50;endArrow=blockThin;endFill=1;startArrow=none;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="misp_box" target="case2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=6;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=none;arcSize=4;" parent="tpl_box" vertex="1">
+          <mxGeometry x="2" y="28" width="306" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_icon" value="📑" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" parent="tpl_box" vertex="1">
+          <mxGeometry x="8" y="2" width="18" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_title" value="Template system" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=11;align=left;verticalAlign=middle;" parent="tpl_box" vertex="1">
+          <mxGeometry x="26" y="2" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_case1" value="Case template: Incident response playbook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#1f3763;strokeColor=#dee2e6;fontSize=9;fontStyle=1;arcSize=8;align=left;spacingLeft=8;" parent="tpl_box" vertex="1">
+          <mxGeometry x="8" y="36" width="294" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_t1" value="  Task: Triage &amp; classification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f4f8;fontColor=#495057;strokeColor=#e9ecef;fontSize=8;align=left;spacingLeft=14;" parent="tpl_box" vertex="1">
+          <mxGeometry x="22" y="64" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_t2" value="  Task: Containment actions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f4f8;fontColor=#495057;strokeColor=#e9ecef;fontSize=8;align=left;spacingLeft=14;" parent="tpl_box" vertex="1">
+          <mxGeometry x="22" y="84" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_t3" value="  Task: Eradication &amp; recovery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f4f8;fontColor=#495057;strokeColor=#e9ecef;fontSize=8;align=left;spacingLeft=14;" parent="tpl_box" vertex="1">
+          <mxGeometry x="22" y="104" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_case2" value="Case template: Vulnerability management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#1f3763;strokeColor=#dee2e6;fontSize=9;fontStyle=1;arcSize=8;align=left;spacingLeft=8;" parent="tpl_box" vertex="1">
+          <mxGeometry x="8" y="132" width="294" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_v1" value="  Task: Assess severity &amp; impact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f4f8;fontColor=#495057;strokeColor=#e9ecef;fontSize=8;align=left;spacingLeft=14;" parent="tpl_box" vertex="1">
+          <mxGeometry x="22" y="160" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="tpl_v2" value="  Task: Coordinate disclosure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f4f8;fontColor=#495057;strokeColor=#e9ecef;fontSize=8;align=left;spacingLeft=14;" parent="tpl_box" vertex="1">
+          <mxGeometry x="22" y="180" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tpl_c1" value="&lt;font style=&quot;font-size:7px;&quot;&gt;&lt;i&gt;creates&lt;/i&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1f3763;strokeWidth=1.5;fontColor=#1f3763;dashed=1;dashPattern=6 3;endArrow=blockThin;endFill=1;exitX=0.2;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tpl_box" target="case1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tpl_c2" value="&lt;font style=&quot;font-size:7px;&quot;&gt;&lt;i&gt;creates&lt;/i&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1f3763;strokeWidth=1.5;fontColor=#1f3763;dashed=1;dashPattern=6 3;endArrow=blockThin;endFill=1;exitX=0.65;exitY=0;exitDx=0;exitDy=0;entryX=0.35;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tpl_box" target="case2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="242" y="460" />
+              <mxPoint x="457" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_tpl_c3" value="&lt;font style=&quot;font-size:7px;&quot;&gt;&lt;i&gt;creates&lt;/i&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1f3763;strokeWidth=1.5;fontColor=#1f3763;dashed=1;dashPattern=6 3;endArrow=blockThin;endFill=1;exitX=1;exitY=0.6;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="tpl_box" target="case3" edge="1">
+          <mxGeometry x="-0.1888" y="16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="616" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cal_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;strokeWidth=1;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="490" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cal_icon" value="📅" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="668" y="494" width="18" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cal_title" value="Calendar" style="text;html=1;fontColor=#1f3763;fontStyle=1;fontSize=10;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="688" y="494" width="65" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cal_desc" value="Track deadlines and events" style="text;html=1;fontSize=7;fontColor=#6c757d;fontStyle=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="756" y="497" width="140" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cal_ev1" value="Mar 15 - Case #2 deadline" style="rounded=1;html=1;fillColor=#FFC000;fontColor=#000;strokeColor=none;fontSize=7;arcSize=50;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="668" y="522" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cal_ev2" value="Mar 20 - Case #1 deadline" style="rounded=1;html=1;fillColor=#FFC000;fontColor=#000;strokeColor=none;fontSize=7;arcSize=50;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="668" y="544" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cal_ev3" value="Mar 25 - Task: post-incident review" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;arcSize=50;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="668" y="566" width="280" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dee2e6;strokeWidth=1;arcSize=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="610" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_icon" value="🔔" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="668" y="614" width="18" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_title" value="Notifications" style="text;html=1;fontColor=#1f3763;fontStyle=1;fontSize=10;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="688" y="614" width="90" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4fd;strokeColor=#cce5ff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="668" y="640" width="280" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_1t" value="👤 You have been assigned to a task" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="672" y="640" width="270" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4fd;strokeColor=#cce5ff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="668" y="660" width="280" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_2t" value="✅ Case #3 has been completed" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="672" y="660" width="270" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4fd;strokeColor=#cce5ff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="668" y="680" width="280" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="notif_3t" value="👤 You have been assigned to a task" style="text;html=1;fontSize=7;fontColor=#495057;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="672" y="680" width="270" height="16" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Case-manipulation" id="case_manipulation">
+    <mxGraphModel dx="1042" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cm_title_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=none;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="30" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cm_title" value="Case status" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;letterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="250" y="30" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_created" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1f3763;strokeWidth=2;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="130" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_created_hdr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#456297;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="162" y="132" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_created_label" value="Created" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="162" y="132" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_created_desc" value="Default state when a case is created.&lt;br&gt;The case is open and active." style="text;html=1;fontSize=9;fontColor=#495057;align=center;verticalAlign=middle;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="170" y="166" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_completed" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1f3763;strokeWidth=2;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="130" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_completed_hdr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="472" y="132" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_completed_label" value="Completed" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="472" y="132" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_completed_desc" value="The case is finished.&lt;br&gt;Moves to the finished cases list." style="text;html=1;fontSize=9;fontColor=#495057;align=center;verticalAlign=middle;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="480" y="166" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="e_create_complete" value="&lt;font style=&quot;font-size:9px;&quot;&gt;&lt;b&gt;Complete&lt;/b&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1f3763;strokeWidth=2;fontColor=#1f3763;endArrow=blockThin;endFill=1;exitX=1;exitY=0.35;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;" parent="1" source="cs_created" target="cs_completed" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_revive" value="&lt;font style=&quot;font-size:9px;&quot;&gt;&lt;b&gt;Revive&lt;/b&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc3545;strokeWidth=2;fontColor=#dc3545;endArrow=blockThin;endFill=1;dashed=1;dashPattern=6 3;exitX=0;exitY=0.65;exitDx=0;exitDy=0;entryX=1;entryY=0.65;entryDx=0;entryDy=0;" parent="1" source="cs_completed" target="cs_created" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cm_note_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#dee2e6;strokeWidth=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="260" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cm_note_text" value="A completed case can be &lt;b&gt;revived&lt;/b&gt; back to the Created status&lt;br&gt;when new information surfaces or additional work is required." style="text;html=1;fontSize=9;fontColor=#495057;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="270" y="284" width="310" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Case-task-files-External-references" id="files_extref">
+    <mxGraphModel dx="1042" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fe_title_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=none;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="20" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_title" value="Files, notes &amp; external references" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;letterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="20" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_case" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=5;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_case_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="fe_case" vertex="1">
+          <mxGeometry x="2" y="30" width="336" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_case_title" value="📁 Case" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=12;align=left;verticalAlign=middle;spacingLeft=8;" parent="fe_case" vertex="1">
+          <mxGeometry y="2" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cf1_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="fe_case" vertex="1">
+          <mxGeometry x="14" y="42" width="22" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cf1_txt" value="evidence.zip" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_case" vertex="1">
+          <mxGeometry x="40" y="44" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cf2_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="fe_case" vertex="1">
+          <mxGeometry x="14" y="72" width="22" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cf2_txt" value="indicators.csv" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_case" vertex="1">
+          <mxGeometry x="40" y="74" width="74" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cf3_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="fe_case" vertex="1">
+          <mxGeometry x="14" y="102" width="22" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cf3_txt" value="report.pdf" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_case" vertex="1">
+          <mxGeometry x="40" y="104" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cn_icon" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=10;" parent="fe_case" vertex="1">
+          <mxGeometry x="230" y="42" width="24" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_cn_txt" value="Case note&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;(Markdown)&lt;/font&gt;" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_case" vertex="1">
+          <mxGeometry x="258" y="42" width="70" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_conv_case" value="&lt;font style=&quot;font-size:7px;&quot;&gt;&lt;i&gt;convert to&lt;br&gt;Markdown&lt;/i&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#c9b458;strokeWidth=1.5;fontColor=#856404;endArrow=blockThin;endFill=1;dashed=1;dashPattern=4 3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fe_case" source="fe_cf2_icon" target="fe_cn_icon" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_conv_hint" value="&lt;font style=&quot;font-size:7px;&quot;&gt;TXT, CSV, JSON files&lt;br&gt;can be converted&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#c9b458;fontColor=#856404;fontSize=7;arcSize=12;" parent="fe_case" vertex="1">
+          <mxGeometry x="120" y="102" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_task" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=5;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="230" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_task_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="fe_task" vertex="1">
+          <mxGeometry x="2" y="30" width="336" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_task_title" value="📋 Task" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=12;align=left;verticalAlign=middle;spacingLeft=8;" parent="fe_task" vertex="1">
+          <mxGeometry y="2" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tf1_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="fe_task" vertex="1">
+          <mxGeometry x="14" y="42" width="22" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tf1_txt" value="screenshot.png" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_task" vertex="1">
+          <mxGeometry x="40" y="44" width="80" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tf2_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="fe_task" vertex="1">
+          <mxGeometry x="14" y="72" width="22" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tf2_txt" value="log_extract.txt" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_task" vertex="1">
+          <mxGeometry x="40" y="74" width="74" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tf3_icon" value="" style="shape=document;fillColor=#e9ecef;strokeColor=#adb5bd;size=0.15;" parent="fe_task" vertex="1">
+          <mxGeometry x="14" y="102" width="22" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tf3_txt" value="api_response.json" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_task" vertex="1">
+          <mxGeometry x="40" y="104" width="94" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tn1_icon" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=10;" parent="fe_task" vertex="1">
+          <mxGeometry x="230" y="42" width="24" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tn1_txt" value="Note 1" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_task" vertex="1">
+          <mxGeometry x="258" y="46" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tn2_icon" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=10;" parent="fe_task" vertex="1">
+          <mxGeometry x="230" y="76" width="24" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tn2_txt" value="Note 2" style="text;html=1;fontSize=8;fontColor=#495057;align=left;verticalAlign=middle;" parent="fe_task" vertex="1">
+          <mxGeometry x="258" y="80" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_tn_label" value="&lt;font style=&quot;font-size:7px;&quot;&gt;Multiple notes&lt;br&gt;(Markdown)&lt;/font&gt;" style="text;html=1;fontSize=7;fontColor=#6c757d;fontStyle=2;align=left;" parent="fe_task" vertex="1">
+          <mxGeometry x="258" y="108" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_conv_task1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#c9b458;strokeWidth=1.5;fontColor=#856404;endArrow=blockThin;endFill=1;dashed=1;dashPattern=4 3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fe_task" source="fe_tf2_icon" target="fe_tn1_icon" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_conv_task2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#c9b458;strokeWidth=1.5;fontColor=#856404;endArrow=blockThin;endFill=1;dashed=1;dashPattern=4 3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fe_task" source="fe_tf3_icon" target="fe_tn2_icon" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_conv_hint2" value="&lt;font style=&quot;font-size:7px;&quot;&gt;Creates a new note&lt;br&gt;per conversion&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#c9b458;fontColor=#856404;fontSize=7;arcSize=12;" parent="fe_task" vertex="1">
+          <mxGeometry x="130" y="138" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_ext_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=5;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="70" width="350" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_ext_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="2" y="30" width="346" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_ext_title" value="🌐 External references" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=12;align=left;verticalAlign=middle;spacingLeft=8;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry y="2" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_ext_desc" value="&lt;font style=&quot;font-size:7px;&quot;&gt;Attached to a task&lt;/font&gt;" style="text;html=1;fontSize=7;fontColor=#81e1e6;fontStyle=2;align=left;spacingLeft=8;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="172" y="6" width="100" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_url1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="14" y="42" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_url1_txt" value="🔗 https://advisory.example.org/vuln-2026-1234" style="text;html=1;fontSize=8;fontColor=#007bff;align=left;verticalAlign=middle;spacingLeft=4;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="18" y="43" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_url2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="14" y="72" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_url2_txt" value="🔗 https://blog.example.com/threat-analysis-lockbit" style="text;html=1;fontSize=8;fontColor=#007bff;align=left;verticalAlign=middle;spacingLeft=4;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="18" y="73" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_crawl_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4fd;strokeColor=#007bff;strokeWidth=1;arcSize=10;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="14" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_crawl_txt" value="🔌 Crawl page&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;Fetch HTML content&lt;/font&gt;" style="text;html=1;fontSize=8;fontColor=#007bff;fontStyle=1;align=center;verticalAlign=middle;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="14" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_convert_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4fd;strokeColor=#007bff;strokeWidth=1;arcSize=10;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="148" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_convert_txt" value="📄 Convert to&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;Markdown&lt;/font&gt;" style="text;html=1;fontSize=8;fontColor=#007bff;fontStyle=1;align=center;verticalAlign=middle;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="148" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_note_result" value="" style="shape=note;fillColor=#fff3cd;strokeColor=#c9b458;size=10;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="290" y="114" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_note_result_lbl" value="&lt;font style=&quot;font-size:7px;&quot;&gt;Task&lt;br&gt;note&lt;/font&gt;" style="text;html=1;fontSize=7;fontColor=#495057;align=center;verticalAlign=top;" parent="fe_ext_bg" vertex="1">
+          <mxGeometry x="280" y="148" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_e_url_crawl" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007bff;strokeWidth=1.5;endArrow=blockThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fe_ext_bg" source="fe_url1" target="fe_crawl_box" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_e_crawl_conv" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#007bff;strokeWidth=1.5;endArrow=blockThin;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fe_ext_bg" source="fe_crawl_box" target="fe_convert_box" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_e_conv_note" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#c9b458;strokeWidth=1.5;endArrow=blockThin;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fe_ext_bg" source="fe_convert_box" target="fe_note_result" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_preserve" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#dee2e6;strokeWidth=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="460" y="268" width="350" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_preserve_txt" value="Preserves external content as it was at the time of retrieval.&lt;br&gt;Protects against pages being taken down, moved or changed." style="text;html=1;fontSize=8;fontColor=#495057;align=center;verticalAlign=middle;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="470" y="272" width="330" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Flowintel-community" id="community">
+    <mxGraphModel dx="1042" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="co_title_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=none;arcSize=8;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="20" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="co_title" value="Flowintel community" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;letterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="210" y="20" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=6;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org1_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="co_org1" vertex="1">
+          <mxGeometry x="2" y="30" width="226" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org1_title" value="🏢 LEA-MS1" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" parent="co_org1" vertex="1">
+          <mxGeometry y="3" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="co_org1" vertex="1">
+          <mxGeometry x="10" y="40" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u1_icon" value="👤" style="text;html=1;fontSize=10;align=left;verticalAlign=middle;" parent="co_org1" vertex="1">
+          <mxGeometry x="14" y="42" width="16" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u1_name" value="Alice Martin" style="text;html=1;fontSize=9;fontColor=#212529;fontStyle=1;align=left;verticalAlign=middle;" parent="co_org1" vertex="1">
+          <mxGeometry x="32" y="42" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u1_role" value="Admin" style="rounded=1;html=1;fillColor=#dc3545;fontColor=#fff;strokeColor=none;fontSize=7;fontStyle=1;arcSize=50;" parent="co_org1" vertex="1">
+          <mxGeometry x="160" y="47" width="50" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="co_org1" vertex="1">
+          <mxGeometry x="10" y="74" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u2_icon" value="👤" style="text;html=1;fontSize=10;align=left;verticalAlign=middle;" parent="co_org1" vertex="1">
+          <mxGeometry x="14" y="76" width="16" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u2_name" value="Bob Jensen" style="text;html=1;fontSize=9;fontColor=#212529;fontStyle=1;align=left;verticalAlign=middle;" parent="co_org1" vertex="1">
+          <mxGeometry x="32" y="76" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u2_role" value="Editor" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;fontStyle=1;arcSize=50;" parent="co_org1" vertex="1">
+          <mxGeometry x="160" y="81" width="50" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="co_org1" vertex="1">
+          <mxGeometry x="10" y="108" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u3_icon" value="👤" style="text;html=1;fontSize=10;align=left;verticalAlign=middle;" parent="co_org1" vertex="1">
+          <mxGeometry x="14" y="110" width="16" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u3_name" value="Claire Dupont" style="text;html=1;fontSize=9;fontColor=#212529;fontStyle=1;align=left;verticalAlign=middle;" parent="co_org1" vertex="1">
+          <mxGeometry x="32" y="110" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u3_role" value="Read only" style="rounded=1;html=1;fillColor=#007bff;fontColor=#fff;strokeColor=none;fontSize=7;fontStyle=1;arcSize=50;" parent="co_org1" vertex="1">
+          <mxGeometry x="155" y="115" width="58" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org1_belongs" value="&lt;font style=&quot;font-size:7px;&quot;&gt;Each user belongs to exactly one organisation&lt;/font&gt;" style="text;html=1;fontSize=7;fontColor=#6c757d;fontStyle=2;align=center;" parent="co_org1" vertex="1">
+          <mxGeometry x="10" y="142" width="210" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org1_onerole" value="&lt;font style=&quot;font-size:7px;&quot;&gt;Each user has exactly one role&lt;/font&gt;" style="text;html=1;fontSize=7;fontColor=#6c757d;fontStyle=2;align=center;" parent="co_org1" vertex="1">
+          <mxGeometry x="10" y="156" width="210" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f3763;strokeColor=#1f3763;strokeWidth=2;arcSize=6;shadow=1;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="100" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org2_body" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;arcSize=4;" parent="co_org2" vertex="1">
+          <mxGeometry x="2" y="30" width="226" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="co_org2_title" value="🏢 ENISA" style="text;html=1;fontColor=#ffffff;fontStyle=1;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" parent="co_org2" vertex="1">
+          <mxGeometry y="3" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="co_org2" vertex="1">
+          <mxGeometry x="10" y="40" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u4_icon" value="👤" style="text;html=1;fontSize=10;align=left;verticalAlign=middle;" parent="co_org2" vertex="1">
+          <mxGeometry x="14" y="42" width="16" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u4_name" value="David Novak" style="text;html=1;fontSize=9;fontColor=#212529;fontStyle=1;align=left;verticalAlign=middle;" parent="co_org2" vertex="1">
+          <mxGeometry x="32" y="42" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u4_role" value="Editor" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;fontStyle=1;arcSize=50;" parent="co_org2" vertex="1">
+          <mxGeometry x="160" y="47" width="50" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f4f8;strokeColor=#dee2e6;arcSize=12;" parent="co_org2" vertex="1">
+          <mxGeometry x="10" y="74" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u5_icon" value="👤" style="text;html=1;fontSize=10;align=left;verticalAlign=middle;" parent="co_org2" vertex="1">
+          <mxGeometry x="14" y="76" width="16" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u5_name" value="Eva Schmidt" style="text;html=1;fontSize=9;fontColor=#212529;fontStyle=1;align=left;verticalAlign=middle;" parent="co_org2" vertex="1">
+          <mxGeometry x="32" y="76" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="co_u5_role" value="Editor" style="rounded=1;html=1;fillColor=#28a745;fontColor=#fff;strokeColor=none;fontSize=7;fontStyle=1;arcSize=50;" parent="co_org2" vertex="1">
+          <mxGeometry x="160" y="81" width="50" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_orgdots" value="..." style="text;html=1;fontSize=18;fontColor=#1f3763;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="150" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="co_roles_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#dee2e6;strokeWidth=1;arcSize=6;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="co_roles_title" value="Roles &amp; permissions" style="text;html=1;fontColor=#1f3763;fontStyle=1;fontSize=14;align=left;verticalAlign=middle;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="344" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_admin" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=none;arcSize=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="382" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_admin_icon" value="🛡️" style="text;html=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="68" y="386" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_admin_txt" value="&lt;b&gt;Admin&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;Full access to all features.&lt;br&gt;All permissions inherently granted.&lt;/font&gt;" style="text;html=1;fontSize=10;fontColor=#ffffff;align=left;verticalAlign=middle;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="96" y="382" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_editor" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=none;arcSize=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="382" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_editor_icon" value="✎️" style="text;html=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="308" y="386" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_editor_txt" value="&lt;b&gt;Editor&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;Create and edit cases &amp; tasks.&lt;br&gt;Can receive additional permissions.&lt;/font&gt;" style="text;html=1;fontSize=10;fontColor=#ffffff;align=left;verticalAlign=middle;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="336" y="382" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_ro" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007bff;strokeColor=none;arcSize=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="382" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_ro_icon" value="👁️" style="text;html=1;fontSize=16;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="548" y="386" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="co_r_ro_txt" value="&lt;b&gt;Read only&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:7px;&quot;&gt;View data only. Cannot modify.&lt;br&gt;No additional permissions.&lt;/font&gt;" style="text;html=1;fontSize=10;fontColor=#ffffff;align=left;verticalAlign=middle;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="576" y="382" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co_perms_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28a745;strokeWidth=2;arcSize=6;strokeStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="462" width="290" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="co_perms_title" value="Additional permissions" style="text;html=1;fontSize=8;fontColor=#28a745;fontStyle=1;align=center;verticalAlign=top;spacingTop=2;" parent="1" vertex="1">
+          <mxGeometry x="280" y="465" width="240" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p1" value="Org Admin" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="280" y="482" width="58" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p2" value="Case Admin" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="344" y="482" width="62" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p3" value="Queue Admin" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="412" y="482" width="68" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p4" value="Queuer" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="486" y="482" width="40" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p5" value="Template Editor" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="280" y="504" width="78" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p6" value="MISP Editor" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="364" y="504" width="62" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p7" value="Audit Viewer" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="432" y="504" width="66" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_p8" value="Importer" style="rounded=1;html=1;fillColor=#e9ecef;fontColor=#495057;strokeColor=none;fontSize=7;fontStyle=0;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="504" y="504" width="48" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="co_e_editor_perms" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#28a745;strokeWidth=1.5;endArrow=blockThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="co_r_editor" target="co_perms_box" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
