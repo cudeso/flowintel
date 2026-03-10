@@ -8,9 +8,9 @@ Everything in Flowintel centres around **cases** and **tasks**. A case describes
 
 Flowintel also integrates with [MISP](https://www.misp-project.org/) for **sharing findings**. Once a case is complete, you can push it to a MISP instance together with all indicators, notes and objects. From there, MISP's synchronisation features allow you to distribute the case to other teams and communities.
 
-Beyond cases and tasks, Flowintel includes a templating system for repeatable workflows, a calendar view for tracking deadlines, a notification system, analysis modules powered by MISP modules, data export to platforms such as MISP and AIL, and comprehensive audit logging.
+Beyond cases and tasks, Flowintel includes a templating system for repeatable workflows, a calendar view for tracking deadlines, a notification system, analysis modules powered by MISP modules, data export to platforms such as MISP and AIL, and full audit logging.
 
-![flowintel-Flowintelintro.png](diagrams/flowintel-Flowintelintro.png)
+![flowintel-intro.png](diagrams/flowintel-intro.png)
 
 ## Follow up on your work
 
@@ -20,33 +20,31 @@ Once you are logged in, Flowintel gives you several ways to keep track of what i
 
 After logging in, you land on the Flowintel home page. At the top, a welcome banner greets you by name and shows three summary badges:
 
-- The number of open cases you have access to, linking directly to the case list.
-- The number of tasks assigned to you. If you have tasks waiting, the badge links to your personal task list. If you have none, the badge confirms that no tasks are assigned.
-- The number of unread notifications. If there are any, the badge links to the notification page.
+- The number of **open cases** you have access to, linking directly to the case list.
+- The number of **tasks assigned** to you. If you have tasks waiting, the badge links to your personal task list. If you have none, the badge confirms that no tasks are assigned.
+- The number of **unread notifications**. If there are any, the badge links to the notification page.
 
-Below the welcome banner, the home page displays a list of the ten most recently modified cases. For each case, you can see the case ID and title, a relative timestamp showing when it was last changed, the description (truncated, with an option to expand), the current status, how many tasks are open and closed, the deadline, and any tags, taxonomies or galaxy clusters attached to the case. Private cases only appear here if you belong to an organisation assigned to the case or if you are an administrator.
+Below the welcome banner, the home page displays a list of the most recently modified cases. For each case, you can see the case ID and title, a relative timestamp showing when it was last changed, the description, the current status, how many tasks are open and closed, the deadline, and any tags, taxonomies or galaxy clusters attached to the case. Private cases only appear here if you belong to an organisation assigned to the case or if you are an administrator.
 
 This list gives you a quick overview of where activity is happening across the cases you have access to, without needing to navigate to the full case list.
 
 ### Notifications
 
-Flowintel keeps you informed through in-app notifications. A bell icon in the navigation bar shows the number of unread notifications.
+Flowintel keeps you informed through **in-app notifications**. To view your notifications, click the bell icon. The notification page shows a list of notifications with an icon indicating the type, the message text, and a timestamp showing when it was received or when it was read.
 
 Notifications are created automatically when something relevant happens. The main situations that trigger a notification are:
 
-- You are assigned to a task, or removed from a task.
-- A case is completed, revived or deleted.
+- You are **assigned to a task**, or removed from a task.
+- A case is **completed**, revived or deleted.
 - A task assigned to you is completed or revived.
 - Your organisation is added to a case, removed from a case, or made the owner of a case.
 - A deadline on a case or task you are involved in is approaching (within ten days).
 - In a privileged case, a task is submitted for approval or a task you requested is approved or rejected.
-- A user requests a password reset (sent to administrators).
-
-To view your notifications, click the bell icon. The notification page shows a list of notifications with an icon indicating the type, the message text, and a timestamp showing when it was received or when it was read.
+- A user requests a **password reset** (sent to administrators).
 
 #### Filtering notifications
 
-At the top of the notification page, you can switch between unread and read notifications. A time filter lets you narrow the list to notifications from today, this week, or all time. You can also filter by type, choosing from categories such as Assigned, Unassigned, Completed, Revived, Deleted, Organisation, Deadline and Admin. When a filter is active, a count shows how many notifications match out of the total.
+At the top of the notification page, you can switch between unread and read notifications. A time filter lets you narrow the list to notifications from today, this week, or all time. You can also filter by type or category. When a filter is active, a count shows how many notifications match out of the total.
 
 #### Acting on notifications
 
@@ -60,16 +58,16 @@ At the top, a statistics banner summarises your workload: the total number of ta
 
 Tasks are grouped by the case they belong to. For each task, you can see the title, a relative timestamp of when it was last changed, the description, the current status, tags, the other users assigned, the deadline, and any incomplete subtasks. Deadlines are colour-coded to help you spot urgent items: overdue tasks are highlighted in red, tasks due today or tomorrow in yellow, and tasks further out or without a deadline in grey.
 
-You can switch between ongoing and finished tasks, and sort the list by title, last modification, deadline or status. The sort order can be reversed. The list is paginated, showing twenty tasks per page.
+You can switch between ongoing and finished tasks, and sort the list by title, last modification, deadline or status. The sort order can be reversed.
 
 
 ## Cases
 
 Everything in Flowintel starts with a case. A case represents a situation that your team needs to investigate, respond to or track. There is no limit on how many cases Flowintel can store - it depends only on the available system resources.
 
-A case is owned by the organisation of the user who creates it. Other organisations can be assigned to the case later, allowing cross-team collaboration. Within a case, you create tasks to break the work down into individual steps.
+A case is owned by the organisation of the user who creates it. Other organisations can be assigned to the case later, allowing cross-team collaboration. If you use Flowintel organisations to represent internal departments, this means each case naturally tracks which department initiated the investigation. Within a case, you create tasks to break the work down into individual steps.
 
-Each case is automatically assigned a unique **ID** (the number displayed in front of the case title) and a unique **UUID**. The ID is a simple sequential number used within the Flowintel interface. The UUID is a universally unique identifier that can be used for integration with external systems.
+Each case is automatically assigned a unique **ID** (the number displayed in front of the case title) and a unique UUID. The ID is a simple sequential number used within Flowintel. The UUID is a universally unique identifier that can be used for integration with external systems.
 
 ### Creating a case
 
@@ -86,15 +84,17 @@ The following fields are available:
 
 ### Editing a case
 
-From the case detail page, click the edit button. You can change the title, description, deadline, time required, ticket ID, and the private and privileged toggles. Tags, taxonomies and galaxies are edited separately from the same page.
+From the case detail page, click the edit button. You can change the title, description, deadline, time required, ticket ID, and the private and privileged toggles. 
+
+Tags, taxonomies and galaxies are edited separately from the same page.
 
 Only users who belong to an organisation assigned to the case can edit it. Administrators can always edit any case. In a privileged case, only an administrator or Case Admin can change the privileged toggle.
 
 ### Deleting a case
 
-From the case detail page, click the delete button. Flowintel asks for confirmation before proceeding. Deleting a case removes the case itself, all its tasks, all attached files and the case history. This action cannot be undone.
+From the case detail page, use the Actions menu on the top right and choose Delete. Flowintel asks for confirmation before proceeding. Deleting a case removes the case itself, all its tasks, all attached files and the case history. This action cannot be undone.
 
-Only users with the sufficient permissions who belong to an organisation assigned to the case can delete it. In a privileged case, only an administrator or Case Admin can delete the case.
+Only users with sufficient permissions who belong to an organisation assigned to the case can delete it. In a privileged case, only an administrator or Case Admin can delete the case.
 
 ### Behaviour settings
 
@@ -124,13 +124,17 @@ A case has two statuses:
 | **Created** | The case is open and active. This is the initial state when a case is created. |
 | **Completed** | The case is finished. It moves out of the active case list and into the finished cases. |
 
-To mark a case as complete, open the case and click the complete button at the top. Flowintel sets the case to **Completed** and records the finish date. A notification is sent to all organisations involved in the case.
+To mark a case as complete, open the case and click the complete button at the top right. Flowintel sets the case to **Completed** and records the finish date. A notification is sent to all organisations involved in the case.
 
-To revive a completed case, navigate to finished cases, open the case and click the revive button. This brings the case back to the **Created** status and makes it appear in the active case list again. Note that the tasks are not automatically revived - only the case itself returns to the open state. You can then reopen individual tasks as needed. Reviving is useful when new information surfaces or when additional work is required on a case that was thought to be finished.
+To revive a completed case, navigate to finished cases, open the case and click the revive button. This brings the case back to the **Created** status and makes it appear in the active case list again. The tasks are not automatically revived; only the case itself returns to the open state. You can then reopen individual tasks as needed.
+
+Flowintel does not require all tasks to be closed or finished before you complete a case. You are free to close a case at any point, regardless of the state of its tasks. When you later revive the case, each task keeps the status it had at the time the case was closed.
+
+Reviving is useful when new information surfaces or when additional work is required on a case that was thought to be finished.
 
 In a privileged case, only an administrator or Case Admin can complete or revive the case.
 
-![flowintel-Casemanipulation.png](diagrams/flowintel-Casemanipulation.png)
+![flowintel-Case-manipulation.png](diagrams/flowintel-Case-manipulation.png)
 
 ### Note
 
@@ -146,7 +150,7 @@ To delete a file, click the delete button next to it. The file is removed perman
 
 If an attached file is a TXT, CSV or JSON file, you can convert it to a note. This reads the content of the file and appends it to the case note. The original file is kept after conversion.
 
-This is particularly useful in day-to-day case management. During an investigation, you often receive data as files - a CSV export from a log management system, a JSON response from an API, or a plain text summary from a colleague. Rather than asking everyone to open and read the file separately, you can convert it to a note, which makes the content directly visible on the case page. This keeps the information accessible without requiring a download and means the key data is part of the case narrative rather than buried in an attachment.
+This is particularly useful in day-to-day case management. During an investigation, you often receive data as files: a CSV export from a log management system, a JSON response from an API, or a plain text summary from a colleague. Rather than asking everyone to open and read the file separately, you can convert it to a note, which makes the content directly visible on the case page. This keeps the information accessible without requiring a download and means the key data is part of the case narrative rather than buried in an attachment.
 
 ### The case list
 
@@ -178,7 +182,7 @@ By default, the case list shows open cases. A button at the top allows you to sw
 
 Clicking on a case in the list opens its detail page. At the top, you can see when the case was created, when it was last modified, and a summary of tasks showing how many are open and how many are closed.
 
-The detail page also shows the number of files, objects and connectors associated with the case. These features are covered in later sections of this manual.
+The detail page also shows the number of files, objects and connectors associated with the case.
 
 ### Assigning organisations
 
@@ -195,6 +199,68 @@ You can link a case to one or more other cases in Flowintel. This is useful when
 From the case detail page, you can access the case history, which is a full audit log of all actions performed on the case. This shows who did what and when, providing a complete trail for accountability and review.
 
 You can also view the case info, which includes the case's UUID and other metadata.
+
+### MISP objects
+
+MISP objects let you attach structured threat intelligence data directly to a case. Tags and galaxies provide classification labels, but MISP objects go further: they store actual indicators and observables such as file hashes, IP addresses, domain names and email addresses, all in a standardised format.
+
+A MISP object is based on an **object template**. Flowintel ships with the full library of MISP object templates, which define what attributes an object of a given type can hold. The **file** template, for instance, has attributes for filename, MD5, SHA-1, SHA-256, file size and more. The **ip-port** template covers IP address, port, protocol and domain. The **email** template includes sender, recipient, subject line and header fields.
+
+You do not need to fill in every attribute that a template defines. Fill in the attributes that are relevant to your investigation and that are required by the object template.
+
+#### Creating a MISP object
+
+To add a MISP object to a case, open the case detail page and navigate to the **MISP objects** tab. Click the button to create a new object. Flowintel presents a list of commonly used object templates at the top, covering categories such as domain/IP, URL/domain, file/hash, vulnerability, financial and personal. You can also pick any other template from the full list. The list shows each template with its name and description, and you can search by name.
+
+Once you have selected a template, click on the **attribute** tab to start entering attributes. The template displays which attributes are required at minimum, for instance: *"requires one of: url, resource_path"*. For each attribute, you can provide:
+
+- **Value** (required): the actual data, such as `192.168.1.100` or `malware.exe`.
+- **Type**: the MISP attribute type (`ip-dst`, `md5`, `filename`, `email-src` and so on). Usually pre-filled based on the template.
+- **First seen** (optional): when the indicator was first observed.
+- **Last seen** (optional): when the indicator was last observed.
+- **Comment** (optional): a free-text annotation.
+- **IDS flag**: whether this attribute should be used for intrusion detection.
+- **Disable correlation**: whether to exclude this attribute from automatic correlation.
+
+Click **add attribute** to add the attribute to the object. When you are done adding attributes, click **save changes** to add the object to the case.
+
+#### Editing and deleting attributes
+
+Each attribute within an object can be edited or deleted individually. Open the object, find the attribute and use the edit or delete button. Deleting an attribute removes it permanently.
+
+#### Deleting an object
+
+To delete an entire MISP object, open the object and click the delete button. This removes the object and all its attributes from the case. The deletion cannot be undone.
+
+#### Analysing objects
+
+*to complete*
+
+### Case connectors
+
+Connectors link a case to external platforms such as MISP or AIL. Before you can use connectors on a case, they need to be configured at the platform level under **Tools > Connectors** (see the Connectors and instances section below).
+
+To manage connectors on a case, open the case detail page and navigate to the connectors tab.
+
+#### Adding a connector to a case
+
+Click the button to add a connector and select one of the configured connector instances from the list. 
+
+You can attach multiple connector instances to the same case. For example, you might have one MISP instance for internal sharing and another for community sharing, or one connector to send to MISP and another one to receive from MISP.
+
+#### Pushing data to MISP
+
+Once a MISP connector is attached, you can push the case data to the MISP instance if it's of the **send_to** type. Flowintel creates or updates a MISP event with the case title and description, and includes all MISP objects and their attributes. Tags attached to the case are also synchronised.
+
+The first push creates a new MISP event and stores the event UUID as the connector identifier. Subsequent pushes update the existing event.
+
+#### Receiving data from MISP
+
+If the connector instance is configured as a **receive_from** type, you can pull data from MISP into Flowintel. This fetches the MISP event by its identifier and creates or updates local MISP objects and attributes to match.
+
+#### Editing and removing connectors
+
+You can edit the identifier of a case connector or remove it entirely. Removing a connector from a case does not delete any data on the external platform. It only breaks the link between the case and the external instance.
 
 
 ## Tasks
@@ -297,6 +363,400 @@ To add an external reference, open the task and enter the URL. You can edit or d
 
 ![flowintel-Case-task-files-External-references.png](diagrams/flowintel-Case-task-files-External-references.png)
 
+
+## Contextualisation
+
+Flowintel uses taxonomies, tags and galaxies to bring structure and consistency to your case data. These concepts come from the threat intelligence community and are shared with platforms like [MISP](https://www.misp-project.org/), which means the classifications you apply in Flowintel are directly compatible with the wider intelligence sharing ecosystem.
+
+### Taxonomies
+
+A taxonomy is a structured classification system: a controlled vocabulary with predefined categories and values. The purpose is to remove ambiguity. When everyone uses the same terms in the same way, data becomes comparable and searchable.
+
+The Traffic Light Protocol illustrates why this matters. Without a controlled taxonomy, different teams might label the same sensitivity level as `TLP:clear`, `tlp:clear`, `tlp="clear"`, `tlp=clear` or even `trafficlight=clear`. A human reader might recognise these as equivalent, but a machine cannot. Inconsistent labelling breaks searches, prevents reliable correlation and makes automated processing nearly impossible.
+
+Flowintel ships with a large library of community-developed taxonomies from the MISP project (see [MISP taxonomies](https://www.misp-project.org/taxonomies.html)). These cover common use cases such as:
+
+- **Information sharing rules**: TLP (Traffic Light Protocol), PAP (Permissible Actions Protocol)
+- **Confidence levels**: how reliable the source or assessment is
+- **Threat types**: malware classification, incident types
+- **Sectors**: industries and critical infrastructure sectors
+
+Administrators can enable or disable specific taxonomies for their Flowintel instance.
+
+### Tags
+
+A tag is the label you actually apply to a case or task. It is a single instance of a taxonomy value attached to a piece of data. Where a taxonomy defines what labels exist and what they mean, a tag applies that meaning to a specific case or task.
+
+For example, the TLP taxonomy defines the value `tlp:amber`. When you attach `tlp:amber` to a case, you have created a tag. That tag tells everyone who sees the case that it should be handled under TLP:AMBER rules.
+
+Flowintel also supports **custom tags**, which are labels defined locally in your instance, independent of any published taxonomy. Use custom tags for classifications specific to your team or organisation that do not exist in any standard taxonomy.
+
+### Galaxies and clusters
+
+Taxonomies and tags provide simple labels, but some concepts need richer representation. A threat actor is more than a name. It may have aliases, known targets, preferred techniques and relationships to other actors or malware families. Capturing all of that in a single tag would be impractical.
+
+Galaxies address this need. A galaxy is a collection of related knowledge organised into clusters. Each cluster represents a specific item, such as a particular threat actor, a malware family, a country, a sector, or an attack technique from the MITRE ATT&CK framework. Clusters can hold detailed metadata: descriptions, synonyms, references and relationships to other clusters.
+
+Galaxies also support relationships between clusters. A threat actor cluster can link to the malware it uses, the sectors it targets and the techniques it favours. These relationships let analysts trace connections across their data, for instance from an actor to the tools it deploys and the industries it targets.
+
+In Flowintel, you can attach galaxy clusters to cases and tasks just as you attach tags. The cluster brings along all its metadata, making it immediately visible on the case or task page.
+
+### Benefits of consistent tagging
+
+In day-to-day work, taxonomies, tags and galaxies help answer questions quickly:
+
+- **Filtering and searching**: find all cases tagged with a specific threat actor, malware family, sector or confidence level, rather than relying on free-text search.
+- **Governance and sharing**: TLP tags control distribution rules. PAP tags indicate what recipients may do with the data. Workflow tags show whether intelligence has been reviewed.
+- **Automation**: tags drive automated workflows. They describe which cases should be pushed to external platforms, how they should be processed and which detection controls receive them.
+- **Operationalisation**: when combined with MISP objects and connectors, tags control which indicators reach detection systems. Indicators can be marked as suitable for blocking, for alerting only, or not yet validated.
+- **Context for decisions**: tags and galaxy clusters supply the surrounding context: why it matters, how confident the source is and what action is expected.
+
+### How taxonomies, tags and galaxies work together
+
+The taxonomy defines what labels exist and what they mean. The tag applies that meaning to a specific case or task. Galaxies go further by grouping related concepts into structured clusters with richer metadata. Used together, they give your case data the structure and consistency needed for searching, comparison and automation.
+
+![flowintel-Contextualisation.png](diagrams/flowintel-Contextualisation.png)
+
+
+## Connectors and instances
+
+Connectors allow Flowintel to exchange data with external platforms such as MISP and AIL. They are managed under **Tools > Connectors** in the sidebar.
+
+### Permissions
+
+Only users with the **Admin** system role can create, edit or delete connectors and connector instances at the platform level. All authenticated users can view the list of configured connectors.
+
+To use connectors within cases (attaching them, pushing or pulling data), you need at least an **Editor** role and must belong to an organisation assigned to the case.
+
+*check MISP Editor role*
+
+### Connector types
+
+Each connector can have one or more **instances**.
+
+### Instances
+
+An instance is a connection to a specific server. Each instance requires:
+
+- **Name** (required): a descriptive name, such as "Production MISP" or "Community MISP".
+- **URL** (required): the base URL of the external service (e.g. `https://misp.example.org`).
+- **Type** (required): the direction of data flow. For MISP, two types are available:
+  - **send_to**: push data from Flowintel to the MISP instance. Use this to export cases, objects and attributes.
+  - **receive_from**: pull data from the MISP instance into Flowintel. Use this to import or update cases from existing MISP events.
+- **API key**: the authentication key for the external service. This can be configured in two ways:
+
+*add about global instance*
+
+### Setting up a MISP connector
+
+To connect Flowintel with a MISP instance:
+
+1. Navigate to **Tools > Connectors** and click on the MISP connector.
+2. Click "Add an instance".
+3. Provide the instance name, the MISP server URL, select the type (`send_to` or `receive_from`) and enter the API key.
+4. Choose whether the API key is global (shared) or per-user.
+
+You can create multiple instances under the same connector. A common setup is to have one **send_to** instance for pushing intelligence to your production MISP and one **receive_from** instance for pulling updates back.
+
+*check global api key*
+
+### Multiple instances
+
+There is no limit on the number of instances you can configure. You might have separate instances for:
+
+- An internal MISP server and a community MISP server.
+- A production MISP and a staging MISP.
+- A MISP instance for sending and another for receiving.
+- Different external platforms entirely (MISP and AIL).
+
+Each instance operates independently. When you attach connectors to a case, you select specific instances, so you have full control over where data flows.
+
+
+## REST API
+
+Flowintel includes a full REST API that lets you automate and integrate your case management workflows. Every action available through the web interface (creating cases, adding tasks, uploading files, managing users) can also be done through the API.
+
+### Swagger documentation
+
+The built-in Swagger documentation is available at `/api/` on your Flowintel instance. Open `https://<your-host>/api/` in a browser to see a complete, interactive reference of all available endpoints. You can try out requests directly from the Swagger page after entering your API key.
+
+The Swagger interface groups endpoints by namespace: **case**, **task**, **admin**, **analyzer**, **calendar**, **connectors**, **custom_tags**, **importer**, **my_assignment**, **templating** and **case_from_misp**.
+
+### Authentication
+
+All API requests must include an API key in the `X-API-KEY` HTTP header. Every Flowintel user has a personal API key, visible on the profile page (blurred by default, click the eye icon to reveal it). If you need a new key, use the reset button; the old key is invalidated immediately.
+
+Requests without a valid API key receive a `403 Forbidden` response. The API key carries the same permissions as the user it belongs to: an API key for a Read Only user cannot create cases, and an API key for a non-admin user cannot manage organisations.
+
+**Tip:** for automation scripts, create a dedicated service account with only the permissions the script needs. Avoid using a personal admin key in unattended processes.
+
+### Use cases
+
+The API is designed for scenarios such as:
+
+- **Automation**: create cases and tasks from external triggers, for example, a ticketing system, an alert pipeline or a SOAR playbook.
+- **Reporting**: retrieve case statistics, list open cases or export data for dashboards and compliance reports.
+- **User provisioning**: bulk-create users or synchronise user accounts from an identity provider.
+- **Calendar integration**: pull the Flowintel calendar feed into external calendar tools.
+- **Evidence upload**: attach files to cases or tasks programmatically from collection scripts.
+- **Template management**: create, list or import case and task templates.
+
+### Examples with curl
+
+All examples below use `YOUR_API_KEY` as a placeholder. Replace it with your actual API key.
+
+#### List open cases
+
+```bash
+curl -s -H "X-API-KEY: YOUR_API_KEY" \
+  https://your-flowintel-host/api/case/not_completed
+```
+
+Response (abbreviated):
+
+```json
+{
+  "cases": [
+    {
+      "id": 1,
+      "title": "Compromised workstation",
+      "description": "Investigation on a compromised workstation found at institution ABC.",
+      "creation_date": "2026-03-09 09:22",
+      "status_id": 1,
+      "completed": false,
+      "nb_tasks": 7,
+      "tags": [ ... ]
+    }
+  ]
+}
+```
+
+#### Create a case
+
+```bash
+curl -s -X POST \
+  -H "X-API-KEY: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Phishing campaign targeting finance",
+    "description": "Multiple employees reported suspicious emails with invoice attachments.",
+    "tags": ["tlp:amber"],
+    "deadline_date": "2026-03-20",
+    "ticket_id": "RTIR-2026-0042"
+  }' \
+  https://your-flowintel-host/api/case/create
+```
+
+Response:
+
+```json
+{
+  "message": "Case created, id: 7",
+  "case_id": 7
+}
+```
+
+#### Create a task in a case
+
+```bash
+curl -s -X POST \
+  -H "X-API-KEY: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Analyse email headers",
+    "description": "Extract and analyse the email headers from the reported phishing emails."
+  }' \
+  https://your-flowintel-host/api/case/7/create_task
+```
+
+Response:
+
+```json
+{
+  "message": "Task 14 created for case id: 7",
+  "task_id": 14
+}
+```
+
+#### Get case details
+
+```bash
+curl -s -H "X-API-KEY: YOUR_API_KEY" \
+  https://your-flowintel-host/api/case/7
+```
+
+Response (abbreviated):
+
+```json
+{
+  "id": 7,
+  "title": "Phishing campaign targeting finance",
+  "description": "Multiple employees reported suspicious emails with invoice attachments.",
+  "creation_date": "2026-03-10 09:54",
+  "status_id": 1,
+  "completed": false,
+  "nb_tasks": 1,
+  "deadline": "2026-03-20 00:00",
+  "ticket_id": "RTIR-2026-0042",
+  "tags": [
+    {
+      "name": "tlp:amber",
+      "color": "#FFC000"
+    }
+  ]
+}
+```
+
+#### Delete a case
+
+```bash
+curl -s -H "X-API-KEY: YOUR_API_KEY" \
+  https://your-flowintel-host/api/case/7/delete
+```
+
+Response:
+
+```json
+{
+  "message": "Case deleted"
+}
+```
+
+#### List users (admin only)
+
+```bash
+curl -s -H "X-API-KEY: YOUR_API_KEY" \
+  https://your-flowintel-host/api/admin/users
+```
+
+Response (abbreviated):
+
+```json
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "admin",
+      "last_name": "admin",
+      "email": "admin@example.org",
+      "org_id": 1,
+      "role_id": 1,
+      "creation_date": "2026-02-25 18:36"
+    }
+  ]
+}
+```
+
+#### List organisations (admin only)
+
+```bash
+curl -s -H "X-API-KEY: YOUR_API_KEY" \
+  https://your-flowintel-host/api/admin/orgs
+```
+
+Response (abbreviated):
+
+```json
+{
+  "orgs": [
+    {
+      "id": 1,
+      "name": "CIRCL",
+      "description": "Computer Incident Response Center Luxembourg",
+      "uuid": "7f3c4cc4-7d37-40cb-8a62-a50898cde8ed",
+      "default_org": true
+    }
+  ]
+}
+```
+
+### Examples with Python
+
+The same operations can be done with Python using the `requests` library.
+
+#### Create a case and add a task
+
+```python
+import requests
+
+API_URL = "https://your-flowintel-host/api"
+headers = {
+    "X-API-KEY": "YOUR_API_KEY",
+    "Content-Type": "application/json"
+}
+
+# Create a case
+case_data = {
+    "title": "Phishing campaign targeting finance",
+    "description": "Multiple employees reported suspicious emails with invoice attachments.",
+    "tags": ["tlp:amber"],
+    "deadline_date": "2026-03-20",
+    "ticket_id": "RTIR-2026-0042"
+}
+response = requests.post(f"{API_URL}/case/create", json=case_data, headers=headers)
+case_id = response.json()["case_id"]
+print(f"Created case {case_id}")
+
+# Add a task to the case
+task_data = {
+    "title": "Analyse email headers",
+    "description": "Extract and analyse the email headers from the reported phishing emails."
+}
+response = requests.post(f"{API_URL}/case/{case_id}/create_task", json=task_data, headers=headers)
+task_id = response.json()["task_id"]
+print(f"Created task {task_id}")
+```
+
+Output:
+
+```
+Created case 7
+Created task 14
+```
+
+#### List open cases
+
+```python
+import requests
+
+API_URL = "https://your-flowintel-host/api"
+headers = {"X-API-KEY": "YOUR_API_KEY"}
+
+response = requests.get(f"{API_URL}/case/not_completed", headers=headers)
+for case in response.json()["cases"]:
+    print(f"  Case #{case['id']}: {case['title']}")
+```
+
+Output:
+
+```
+  Case #1: Compromised workstation
+  Case #2: Forensic investigation
+  Case #5: Suspicious network traffic
+```
+
+### Error handling
+
+The API returns standard HTTP status codes:
+
+| Code | Meaning |
+|---|---|
+| `200` | Success |
+| `201` | Resource created |
+| `400` | Bad request (missing or invalid parameters) |
+| `403` | Forbidden (invalid API key or insufficient permissions) |
+| `404` | Resource not found |
+| `500` | Internal server error |
+
+Error responses include a JSON body with a `message` field explaining what went wrong. For example:
+
+```json
+{
+  "message": "Title already exist"
+}
+```
+
+
 ## The Flowintel community
 
 The Flowintel community is built around three concepts: organisations, users and roles. Together they define who can access the platform and what they are allowed to do. You manage all three from the **Community** section in the sidebar, which contains links to **Orgs**, **Users** and **Roles**.
@@ -309,6 +769,10 @@ Every user must belong to exactly one organisation and must have exactly one rol
 
 
 ## Organisations
+
+Organisations in Flowintel represent the teams or entities that work on cases. In a multi-tenant deployment, each organisation typically maps to a separate company, partner or constituent. In a single-organisation setup, you can use organisations to represent internal departments or teams, for instance Legal, Audit, Forensics and First-line response. This allows you to track case ownership per department and control visibility through private cases.
+
+![flowintel-Organisations_Departments.png](diagrams/flowintel-Organisations_Departments.png)
 
 ### Who can manage organisations
 
@@ -358,7 +822,7 @@ The following fields are available:
 - **Role** (required): select one of the available roles.
 - **Organisation** (required): select the organisation the user belongs to.
 
-Because Flowintel does not send e-mail notifications, the administrator sets the initial password and must share it with the user through a separate, secure channel. There is no self-service signup or automated password distribution.
+Because Flowintel does not send email notifications, the administrator sets the initial password and must share it with the user through a separate, secure channel. There is no self-service signup or automated password distribution.
 
 ### Editing a user
 
@@ -471,7 +935,7 @@ This tab is only accessible to users with the Admin system role.
 
 ## Password reset
 
-Users can change their own password at any time from their profile page. However, if a user forgets their password, they cannot request an automated reset by e-mail. This is by design, for security reasons.
+Users can change their own password at any time from their profile page. However, if a user forgets their password, they cannot request an automated reset by email. This is by design, for security reasons.
 
 Instead, the password reset process works as follows:
 
